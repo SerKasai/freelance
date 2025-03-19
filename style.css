@@ -22,6 +22,10 @@ main {
   text-align: center;
 }
 
+footer {
+  text-align: center;
+}
+
 span {
   text-transform: uppercase;
 }
@@ -55,7 +59,33 @@ span {
   border-radius: 5px;
 }
 
-.about__description {
-  column-count: 2;
-  column-gap: 1.5rem;
+#about .container, #contact .container {
+  max-width: 985px;
+}
+
+#contact {
+  min-height: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#contact button {
+  background-color: #1abc9c;
+}
+
+@media all and (min-width: 765px) {
+  .about__description {
+    column-count: 2;
+    column-gap: 1.5rem;
+  }
 }

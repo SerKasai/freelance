@@ -1,0 +1,61 @@
+.background-dark {
+  background-color: #2c3e50;
+}
+
+.background-green {
+  background-color: #1abc9c;
+}
+
+.background-grey {
+  background-color: #3a546d;
+}
+
+.text-white {
+  color: white;
+}
+
+.main-header .row {
+  min-height: 90px;
+}
+
+main {
+  text-align: center;
+}
+
+span {
+  text-transform: uppercase;
+}
+
+#jumbo {
+  min-height: 590px;
+}
+
+#jumbo h2 {
+  text-transform: uppercase;
+  border-bottom: 2px solid white;
+}
+
+#about h2 {
+  text-transform: uppercase;
+  border-bottom: 2px solid white;
+}
+
+#portfolio {
+  color: black;
+}
+
+#portfolio h2 {
+  text-transform: uppercase;
+  border-bottom: 2px solid #1abc9c;
+}
+
+.portfolio-card {
+  min-height: 260px;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.about__description {
+  column-count: 2;
+  column-gap: 1.5rem;
+}

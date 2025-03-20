@@ -14,10 +14,6 @@
   color: white;
 }
 
-.main-header .row {
-  min-height: 90px;
-}
-
 main {
   text-align: center;
 }
@@ -30,13 +26,17 @@ span {
   text-transform: uppercase;
 }
 
-#jumbo {
-  min-height: 590px;
+#jumbo p {
+  text-transform: uppercase;
 }
 
 #jumbo h2 {
   text-transform: uppercase;
   border-bottom: 2px solid white;
+}
+
+#jumbo img {
+  max-width: 150px;
 }
 
 #about h2 {
@@ -53,9 +53,8 @@ span {
   border-bottom: 2px solid #1abc9c;
 }
 
-.portfolio-card {
-  min-height: 260px;
-  background-color: #ddd;
+#portfolio img {
+  max-width: 100%;
   border-radius: 5px;
 }
 
@@ -81,6 +80,15 @@ input {
 
 #contact button {
   background-color: #1abc9c;
+}
+
+footer h2 {
+  text-transform: uppercase;
+}
+
+footer .btn-outline-light {
+  border-radius: 50%;
+  width: 40px;
 }
 
 @media all and (min-width: 765px) {
